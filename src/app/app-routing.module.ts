@@ -4,7 +4,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { LoginComponent } from './components/login/login.component';
 import { authGuard } from './core/guards/auth.guard';
 import { loginGuard } from './core/guards/login.guard';
-import { PersonComponent } from './components/person/person.component';
+import { PersonComponent } from './components/person-crud/person/person.component';
 
 const routes: Routes = [
   {

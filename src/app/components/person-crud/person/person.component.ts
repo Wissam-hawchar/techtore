@@ -6,7 +6,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { Subscription } from 'rxjs';
 import { Person } from 'src/app/core/models/person';
 import { PersonService } from 'src/app/core/services/person.service';
-import { ConfirmationDialogComponent } from '../confirmation-dialog/confirmation-dialog.component';
+import { ConfirmationDialogComponent } from '../../confirmation-dialog/confirmation-dialog.component';
 import { PersonFormDialogComponent } from '../person-form-dialog/person-form-dialog.component';
 
 @Component({
