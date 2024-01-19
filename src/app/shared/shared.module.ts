@@ -50,6 +50,7 @@ import {MatSelectModule} from '@angular/material/select';
     MatDialogModule,
     ReactiveFormsModule,
     MatSelectModule,
+
   ]
 })
 export class SharedModule { }

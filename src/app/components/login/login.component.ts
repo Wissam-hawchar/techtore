@@ -10,8 +10,9 @@ import { AuthService } from 'src/app/core/services/auth.service';
 })
 export class LoginComponent {
   loginForm?: any;
+  dateNow: string|number|Date;
 
-  constructor(private fb: FormBuilder, private authService : AuthService, private router: Router) {}
+  constructor(private fb: FormBuilder, private authService : AuthService, private router: Router) { this.dateNow= new Date()}
 
   ngOnInit(): void {
     this.loginForm = this.fb.group({

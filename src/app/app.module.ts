@@ -9,6 +9,11 @@ import { SharedModule } from './shared/shared.module';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { HighlightDirective } from './core/directives/highlight.directive';
+import { SquarePipe } from './core/pipes/square.pipe';
+import { ConfirmationDialogComponent } from './components/confirmation-dialog/confirmation-dialog.component';
+import { PersonComponent } from './components/person/person.component';
+import { PersonFormDialogComponent } from './components/person-form-dialog/person-form-dialog.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +21,12 @@ import { ToolbarComponent } from './components/toolbar/toolbar.component';
     LoginComponent,
     DashboardComponent,
     SidenavComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    HighlightDirective,
+    SquarePipe,
+    ConfirmationDialogComponent,
+    PersonComponent,
+    PersonFormDialogComponent
   ],
   imports: [
     BrowserModule,

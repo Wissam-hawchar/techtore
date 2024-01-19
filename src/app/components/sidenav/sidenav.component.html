@@ -18,6 +18,19 @@
                 </a>
             </mat-nav-list>
         </mat-expansion-panel>
+
+        <mat-expansion-panel [class.mat-elevation-z0]="true">
+            <mat-expansion-panel-header>
+                Person
+            </mat-expansion-panel-header>
+            <mat-nav-list>
+                <a mat-list-item routerLink="person">
+                    <mat-icon>person</mat-icon><span>Add person</span>
+                </a>
+            </mat-nav-list>
+        </mat-expansion-panel>
+
+
     </mat-drawer>
 
     <mat-drawer-content>
